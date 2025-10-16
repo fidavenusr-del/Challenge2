@@ -1,0 +1,30 @@
+.card-text {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+.reaction-btn {
+      background: none;
+      border: none;
+      font-size: 1.8rem;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+      margin: 0 10px;
+    }
+
+    .reaction-btn:active {
+      transform: scale(0.9);
+    }
+
+    .like-btn {
+      color: #ff4d6d;
+    }
+
+    .dislike-btn {
+      color: #0d6efd;
+    }
+
+    .counter {
+      font-weight: 600;
+      margin-top: 8px;
+      font-size: 1rem;
+    }
